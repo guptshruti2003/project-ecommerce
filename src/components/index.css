@@ -1,0 +1,68 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+
+}
+.box {
+  width: 250px; border: 0.5px;
+}
+ul>li .font-sme{ 
+  font-size: 10px;
+}
+input{
+  width: 100%;
+}
+
+.navbar-toggler
+{
+  margin:1rem 1rem;
+}
+
+.Logo{
+  margin-bottom: 5px;
+}
+.no-padding{
+  padding-left:0;
+  padding-right:0
+
+}
+.fontsm{
+font-size: 16px;
+}
+
+
+
+.list-unstyled>li>a
+{
+  text-decoration: none;
+  font-size:18px;
+  
+}
+form{
+  font-size: 14px;padding:10px;
+}
+.shiftright
+{
+  float: right;margin-right:0;
+}
+
+.linkd a
+{
+color:#ccc;
+font-size:10px;
+}
+.linkd .a:hover
+{
+  color:#fff;
+
+font-size:12px;
+}
+.cur
+{
+  cursor: pointer;
+}
+.lineh
+{
+  line-height: 36px;
+}
+

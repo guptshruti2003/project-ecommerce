@@ -1,21 +1,28 @@
 .App {
-  text-align: center;
+  text-align: left;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.body{
+  align-content: center;
 }
+.logo
+{
+margin-left: 0 0}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
+form{
+  width: 98%;
+}
 
+.navbar{
+  width:100%;
+}
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 60vh;
   display: flex;
   flex-direction: column;
   align-items: center;
