@@ -11,8 +11,8 @@ import PretendItem from './pretenditem'
         <div>
  <Navb {...this.props}/>
 <section className="pretend-section "> 
-<div className="container-fluid " style={{marginTop:'170px'}}>
-<h3 className="card-title">Pretend Toys</h3>
+<div className="container mtop " >
+<h3 >Pretend Toys</h3>
 <hr/>
     <div className="row ">
 

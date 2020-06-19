@@ -18,7 +18,7 @@ export default class Cart extends React.Component{
                 <div className="container" style={{marginTop:'170px'}}>
                 <div className="">
 
-                    <h3 className="card-title">cart</h3>
+                    <h3 >cart</h3>
                     <hr/>
                         {this.context.cart.map((product,index)=>
                            <CartItem product={product.product} qty={product.qty_added}  key={index} />

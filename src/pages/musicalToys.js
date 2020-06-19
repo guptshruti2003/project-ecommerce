@@ -11,8 +11,8 @@ import MusicalToysItem from './musicalToysItem'
         <div>
  <Navb {...this.props}/>
 <section className="musical-section "> 
-<div className="container-fluid " style={{marginTop:'170px'}}>
-<h3 className="card-title">Musical Toys</h3>
+<div className="container mtop" >
+<h3 >Musical Toys</h3>
 <hr/>
     <div className="row ">
 

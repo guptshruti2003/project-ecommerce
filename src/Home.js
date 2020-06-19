@@ -33,13 +33,13 @@ render(){
     <div className="container-fluid " >
      <Navb {...this.props}/>
 
-     <section className="first-section margin-t " >
+     <section className="first-section  " >
        <div className="container-fluid "  >
             <div className="row ">
-              <div className="col-sm-6 col-md-4">
+              <div className="col-sm-5 col-md-4">
 <Sidebar/>
               </div>
-              <div className="col-sm-6 col-md-8 margint">
+              <div className="col-sm-7 col-md-8 margint">
                    <div  className="content">
                         <Carousel>
                           <Carousel.Item>

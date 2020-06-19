@@ -11,8 +11,8 @@ import ElectronicToysItem from './electronicToysItem'
         <div>
  <Navb {...this.props}/>
 <section className="Electronic-section "> 
-<div className="container-fluid " style={{marginTop:'170px'}}>
-<h3 className="card-title">Electronic Toys</h3>
+<div className="container mtop" >
+<h3 >Electronic Toys</h3>
 <hr/>
     <div className="row ">
 

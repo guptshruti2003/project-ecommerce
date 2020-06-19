@@ -16,12 +16,15 @@ render()
                    <p className="card-text">{sciencetoy.Description}</p>
                    <h4 className="card-text">Price:<small>${sciencetoy.Price}</small></h4>
                    <span className="card-text"><small>Available Quantity:</small>{sciencetoy.available_Quantity}</span>
-
-<div>
+<div className="mb-3"></div>
+<div >
     <button className="btn btn-sm btn-warning" onClick={()=>{this.context.addToCart(sciencetoy,1)}}>Add to Cart</button>
 </div>
+<div className="mb-3"></div>
+
                </div>
-          
+          <div className="mb-3"></div>
+
            </div>
     )
 }

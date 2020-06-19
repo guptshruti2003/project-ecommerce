@@ -16,10 +16,13 @@ render()
                    <p className="card-text">{pretendtoy.Description}</p>
                    <h4 className="card-text">Price:<small>${pretendtoy.Price}</small></h4>
                    <span className="card-text"><small>Available Quantity:</small>{pretendtoy.available_Quantity}</span>
+<div className="mb-3"></div>
 
 <div>
     <button className="btn btn-sm btn-warning" onClick={()=>{this.context.addToCart(pretendtoy,1)}}>Add to Cart</button>
 </div>
+<div className="mb-3"></div>
+
                </div>
           
            </div>

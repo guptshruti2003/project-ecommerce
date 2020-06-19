@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './components/index.css';
-import Home from './Home';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './components/index.css';
+import './homeAssets/home.css'
+
+
 import {BrowserRouter as Router,Switch,Route,Link} from 'react-router-dom'
 import Routes from './Routes'
 import * as serviceWorker from './serviceWorker';

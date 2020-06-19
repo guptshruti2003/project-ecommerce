@@ -59,8 +59,7 @@ render(){
                   
                 </div>
 
-
-
+            
             </div>
 
         </div>

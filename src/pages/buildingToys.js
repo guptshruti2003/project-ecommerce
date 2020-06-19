@@ -11,8 +11,8 @@ import BuildingToysItem from './buildingToysItem'
         <div>
  <Navb {...this.props}/>
 <section className="Buildingtoys-section "> 
-<div className="container-fluid mtop" style={{marginTop:'150px'}}>
-<h3 className="card-title"> Building Toys</h3>
+<div className="container mtop" >
+<h3 > Building Toys</h3>
 <hr/>
     <div className="row ">
 

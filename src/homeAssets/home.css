@@ -1,7 +1,6 @@
 
-
 body{
-     font-size: 12px; font-family: Arial, Helvetica, sans-serif;
+     font-size: 14px; font-family: Arial, Helvetica, sans-serif;
 }
 
 .col-sm,.col{
@@ -77,13 +76,27 @@ margin-top: 150px;margin-bottom:0;
     }
 
   
-  
+    .mtop{
+      margin-top:150px;
+    } 
+
     @media (min-width: 576px) and (max-width: 767.98px) 
     {
-
-.btn-group-sm>.btn,.btn-sm{
-  font-size:.7rem;
+      .container,.container-sm-{
+        max-width:576px;
+      }
+      .col-sm-3{
+        padding-left: 0.6%;
+        padding-right: 0.6%;
+      }
+.mtop{
+  margin-top:140px;
 }
+
+.col-xs-{
+  padding-left:1%;padding-right:1%;
+}
+
     .h5,h5{
       font-size:10px;
     }
@@ -123,7 +136,7 @@ margin-top: 150px;margin-bottom:0;
     }
 
     .first-section{
-  margin-top: 200px;margin-bottom:20px;
+  margin-top: 22%;margin-bottom:20px;
     }
 
     .content
@@ -137,9 +150,7 @@ margin-top: 150px;margin-bottom:0;
         .i-class{
           font-size: 12px;float:left;
         }
-        .margin-t{
-          margin-top:140px;
-        }
+       
 
     .icon-wrap{
       line-height: 2px;padding:8px;
@@ -185,13 +196,24 @@ margin-top: 150px;margin-bottom:0;
 
   }
 
-  @media only screen and (min-width: 900px) {
+  @media only screen and (min-width: 767px) {
+    .mtop{
+      margin-top:170px;
+    }
+    .col-sm-3{
+      padding-left: 1%;
+      padding-right: 1%;
+    }
+    .btn-warning,.btn,.btn-sm{
+      font-size:.9rem;padding:5%;font-weight: 400
+    }
+
     .line-h2{
       font-size:18px;line-height: 16px;padding:10px;
     }
   
     .icon-wrap{
-      line-height: 2px;padding:4px;
+      line-height: 2px;padding:1px;margin-top:1px
     }
     .padd{
       padding-left: 5px; padding-right: 5px;margin-bottom: 10px
@@ -239,7 +261,7 @@ margin-top: 150px;margin-bottom:0;
   line-height: 18px;padding-top:1px;margin-top:4px;
 }
 .text-s{
-  font-size:18px;line-height: 14px;
+  font-size:20px;line-height: 14px;
 }
 
 .content
@@ -251,7 +273,7 @@ margin-top: 150px;margin-bottom:0;
   margin-top:50px;margin-bottom:50px;
     }
 .leftbar{
-  padding:5%;font-size:26px;height:350px;padding-bottom: 20px;
+  padding:4%;font-size:26px;height:350px;padding-bottom: 20px;
 }
 .carousel-inner{
   width:100%;
@@ -270,7 +292,7 @@ max-width:400px; max-height:357px;
 {width:10px;height:10px;}
 
 .first-section{
-margin:2%;margin-top:15%;margin-bottom: 5%;
+margin:2%;margin-top:20%;margin-bottom: 5%;
     }
 
 .text-wrap
