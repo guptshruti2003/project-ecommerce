@@ -14,7 +14,7 @@ render()
                    <hr/>
                    <h4 className="card-title">{product.name}</h4>
                    <p className="card-text">{product.Description}</p>
-                   <h4 className="card-text">Price:<small>${product.Price}</small></h4>
+                   <h4 className="card-text">Price:${product.Price}</h4>
                    <span className="card-text"><small>Available Quantity:</small>{product.available_Quantity}</span>
                    <div className="mb-3"></div>
 

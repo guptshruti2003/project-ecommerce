@@ -1,7 +1,7 @@
 import axios from 'axios'
 import config from './components/register'
 
-let url='http://localhost:4000';
+let url='http://localhost:4001';
 
 export function  getProducts(){
     return axios.get(`${url}/products`)

@@ -99,7 +99,7 @@ render(){
         <div className="text-center">
             <img className="mb-3" src={trustIcon} alt="trustIcon " />
             <div className="">
-              <h4 className="asl">Trusted Quality</h4>
+              <h4 className="asl">Trusted Quality</h4><br/>
               <p className="small">The products are of trusted quality beacause we have reviews from millions of happy customers</p>
             </div>
             </div>

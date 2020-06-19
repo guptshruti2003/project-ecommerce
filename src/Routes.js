@@ -32,15 +32,15 @@ class Routes extends React.Component{
                cart:JSON.parse(localStorage.getItem('cart')) || [],
                addToCart:(product,qty)=>{
                 let cart=this.state.cart;
-                cart.map((c)=>{
-                    if(c.product.id==product.id)
-                    {
-                         qty++;
-                         return qty;
+                // cart.map((c)=>{
+                //     // if(c.product.id==product.id)
+                //     // {
+                //     //      qty++;
+                //     //      return qty;
                         
-                    }  
+                //     // }  
                 
-                }); 
+                // }); 
                  cart.push({
                     product:product,
                     qty_added:qty
